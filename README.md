@@ -11,15 +11,19 @@
 
 ## 安裝
 ### 初始化
-- git clone https://github.com/g0v/wardns
-- cd worddns
-- curl https://cdn.jsdelivr.net/npm/geolite2-city@1.0.0/GeoLite2-City.mmdb.gz | gunzip > GeoLite2-City.mmdb
-- python3 -m venv venv
+```
+$ git clone https://github.com/g0v/wardns
+$ cd worddns
+$ curl https://cdn.jsdelivr.net/npm/geolite2-city@1.0.0/GeoLite2-City.mmdb.gz | gunzip > GeoLite2-City.mmdb
+$ python3 -m venv venv
+```
 
 ### 啟動 dns server
-- source venv/bin/activate
-- pip3 install -r requirements.txt
-- python3 dnsserver.py
+```
+$ source venv/bin/activate
+$ pip3 install -r requirements.txt
+$ python3 dnsserver.py
+```
 
 ### 把自己的電腦的 DNS 改成 127.0.0.1 測試
 
